@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My profile Page</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="cards.js"></script>
+</head>
+<body> 
+
+  <!-- menu -->
+    <div class="topnav">
+      <a href="#profile">Who am I</a>
+      <a href="#pro">Projects</a>
+      <a href="#cust">Testimonies</a>
+      <a href="#contact">Contacts</a>
+    </div>
+    <!-- <nav>
+        <div class="navicon">
+          <div></div>
+        </div>
+        <a href="#profile">Who am I</a>
+        <a href="#pro">Projects</a>
+        <a href="#cust">Testimonies</a>
+        <a href="#contact">Contact</a>
+    </nav> -->
+
+    <!-- Welcome sign -->
+    <h2 data-text="welcome..."></h2>
+
+    <!-- profile -->
+    <section id="profile">
+        <div class="content">
+          <h1>Hi, I am Dalmas</h1>
+          <p>I am an IT project manager with 6+ years of experience and over 15 successful projects delivered to my various customers. Don't worry, you dont have to take my word for it.</p>
+          </div>
+        <div class="waves"></div>
+    </section>
+
+    <!-- Projects -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <h4 id="pro">These are some of my Projects</h4>
+    <div class="cards" id="cards">
+        <div class="card">
+            <h3 class="card-title">Encryption</h3>
+            <img src="Pro1.jpg" alt="">
+            <p class="card-desc">Me and my team were able to create an encryption system for the Prolex ltd. company.
+                It was one of our finest projects and enabled me to gain experience in matters concerning security.
+            </p>
+        </div>
+        <div class="card">
+            <h3 class="card-title">Filing system</h3>
+            <img src="pro2.jpg" alt="">
+            <p class="card-desc">With a rapid increase of users, the upcoming company 'Betlinkd' faced some issues in adjusting to the large increase in data. 
+                I was therefore assigned to coordinate the process of creating an upgraded filing system, which also involved reengineering the database.</p>
+        </div>
+        <div class="card">
+            <h3 class="card-title">Portal</h3>
+            <img src="pro3.jpg" alt="">
+            <p class="card-desc">I managed the construction of a school portal for the Sinergy University. 
+                It was one of the most detailed of my projects but due to the experience acquired with similar but smaller projects, it was executed superbly.</p>
+        </div>
+    </div>
+
+    <!-- Testimonies -->
+    <div class="col-sm-7 mx-auto">
+      <header class="section-header text-center">
+        <span class="h1 d-block">
+          <span>❝</span>
+        </span>
+        <h3 id="cust">Customer Testimonies</h3>
+      </header>
+    </div>
+    
+    <div id="flex-container" class="testimonials">
+      <div id="left-zone">
+        <ul1 class="list">
+          <li class="item">
+            <input type="radio" id="radio_testimonial-1" name="basic_carousel" checked="checked" />
+            <label class="label_testimonial-1" for="radio_testimonial-1">Efficiency</label>
+            <div class="content-test content_testimonial-1">
+              <span class="picto"></span>
+              <h1>Efficiency</h1>
+              <p>“We used to have many glitches and errors with our old system but thanks to this new one's efficiency, work has been running smoothly.”</p>
+              <p class="testimonialFrom">Wafula, Boniface</p>
+              <p class="testimonialState">Admission officer, Sinergy University</p>
+            </div>
+          </li>
+          <li class="item">
+            <input type="radio" id="radio_testimonial-2" name="basic_carousel" />
+            <label class="label_testimonial-2" for="radio_testimonial-2">User Interface</label>
+            <div class="content-test content_testimonial-2">
+              <span class="picto"></span>
+              <h1>User Interface</h1>
+              <p>“I can confirm that the school portal has quite an amazing user interface and meets the neccessary functionalities if not more. It was well done”</p>
+              <p class="testimonialFrom">Gitu, John</p>
+              <p class="testimonialState">Student, Sinergy University </p>
+              <br>
+            </div>
+          </li>
+          <li class="item">
+            <input type="radio" id="radio_testimonial-3" name="basic_carousel" />
+            <label class="label_testimonial-3" for="radio_testimonial-3">order</label>
+            <div class="content-test content_testimonial-3">
+              <span class="picto"></span>
+              <h1>Order</h1>
+              <p>“Things lacked order as our company increased. The upgrade in our filing system and database thankfully offered us the salvation we needed.”</p>
+              <p class="testimonialFrom">Cherop, Alice</p>
+              <p class="testimonialState">Manager, Betlinkd ltd.</p>
+            </div>
+          </li>
+          <li class="item">
+            <input type="radio" id="radio_testimonial-4" name="basic_carousel" />
+            <label class="label_testimonial-4" for="radio_testimonial-4">Security</label>
+            <div class="content-test content_testimonial-4">
+              <span class="picto"></span>
+              <h1>Security</h1>
+              <p>"The encription system has gone through various testing phases and has proved to be successful. We are thankful for the team. They did a good job."</p>
+              <p class="testimonialFrom">Odhiambo, Kristoff</p>
+              <p class="testimonialState">IT Coordinator, Prolex ltd.</p>
+              <br>
+            </div>
+          </li>
+        </ul1>
+      </div>
+      <div id="right-zone"></div>
+    </div>
+
+    <!-- contacts -->
+    <h4>Contact me</h4>
+        <ul id="contact">
+          <li>
+            <a href="https://www.facebook.com/dalmas.maiyo.3/">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+              <span> - Facebook</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/DalmasJoshua">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+              <span> - Twitter</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://mail.google.com/mail/u/0/#inbox">
+              <i class="fa fa-google-plus" aria-hidden="true"></i>
+              <span> - Gmail</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/macogoti/">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <span> - Instagram</span>
+            </a>
+          </li>      
+</body>
+</html>
