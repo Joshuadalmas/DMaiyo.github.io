@@ -164,7 +164,7 @@ h2::before {
   left: 0;
   width: 10;
   height: 100%;
-  color: rgb(255, 255, 255);
+  color: rgb(90 91 94);
   -webkit-text-stroke: 0vw black;
   overflow: hidden;
   animation: animate 10s infinite;
