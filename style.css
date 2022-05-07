@@ -196,7 +196,6 @@ transform: translateY(-50%);
 /* * {box-sizing: border-box;} */
  
 body > .topnav{
-    position: fixed;
     font-family: Arial;
     text-transform: uppercase;
     font-weight: bold;
