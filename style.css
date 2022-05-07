@@ -67,7 +67,7 @@ padding: 0 20px;
 }
 
 #profile {
-position: fixed;
+position: relative;
 background: #333333;
 color: white;
 height: 100vh;
@@ -202,6 +202,7 @@ body > .topnav{
     padding-left: 30%;
 }
 .topnav {
+  position: fixed;
   overflow: hidden;
   background-color: #2f3a4a;
   line-height: 40px;
