@@ -196,13 +196,14 @@ transform: translateY(-50%);
 /* * {box-sizing: border-box;} */
  
 body > .topnav{
+    position: fixed;
     font-family: Arial;
     text-transform: uppercase;
     font-weight: bold;
     padding-left: 30%;
 }
 .topnav {
-  position: fixed;
+  position: relative;
   overflow: hidden;
   background-color: #2f3a4a;
   line-height: 40px;
