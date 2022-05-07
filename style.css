@@ -67,7 +67,7 @@ padding: 0 20px;
 }
 
 #profile {
-position: relative;
+position: fixed;
 background: #333333;
 color: white;
 height: 100vh;
