@@ -255,7 +255,7 @@ header ul li a{
 
 }
 
-ul li a:after{
+header ul li a:after{
     content: "";
     position: absolute;
     background-color:rgb(53, 66, 79);
@@ -266,7 +266,7 @@ ul li a:after{
     transition: 0.3s;
 }
 
-ul li a:hover:after{
+header ul li a:hover:after{
     width: 100%;
 }
 
