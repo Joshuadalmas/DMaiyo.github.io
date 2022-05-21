@@ -17,6 +17,13 @@
       <a href="#cust">Testimonies</a>
       <a href="#contact">Contacts</a>
     </div>
+    
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
 
     <!-- Welcome sign -->
     <h2 data-text="welcome..."></h2>
