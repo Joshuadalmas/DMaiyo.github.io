@@ -194,8 +194,32 @@ transform: translateY(-50%);
 
 /* menu */
 /* * {box-sizing: border-box;} */
+.sticky{
+    padding: 5px 100px;
+    background: rgb(255, 255, 255);
+    z-index: 100000;
+}
+
+a:after{
+    content: "";
+    position: absolute;
+    background-color:rgb(53, 66, 79);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+a:hover:after{
+    width: 100%;
+}
+
+.sticky ul li a{
+    color: rgb(123, 47, 47);
+}
  
-body > .topnav{
+/* body > .topnav{
     font-family: Arial;
     text-transform: uppercase;
     font-weight: bold;
@@ -224,7 +248,7 @@ body > .topnav{
 .topnav a:hover {
   background-color: #002397;
   color: rgb(255, 255, 255);
-}
+} */
  
 /* @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500); */
 /* .navicon {
